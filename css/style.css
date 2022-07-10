@@ -1,0 +1,131 @@
+body {
+  min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  background-image: url(../img/Serendale.ai.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1366px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 48px;
+  padding-bottom: 188px;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.header-soc-icon {
+  display: flex;
+}
+
+.header-soc-icon img {
+  display: block;
+}
+
+.header-soc-icon a {
+  transition: transform 0.3s ease-out;
+}
+
+.header-soc-icon a:hover {
+  transform: translate(0, -5px);
+}
+
+.header-soc-icon a:not(:last-child) {
+  margin-right: 11px;
+}
+
+.main-row {
+  text-align: center;
+}
+.main-title span:first-child {
+  background: linear-gradient(90deg, #ff3bff 0%, #ecbfbf 38.02%, #5c24ff 75.83%, #d94fd5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 94px;
+}
+.main-title span:last-child {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 94px;
+
+  letter-spacing: 0.02em;
+  margin-bottom: 22px;
+}
+.main-desc {
+  max-width: 723px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: 0.72px;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.btn-grad {
+  display: inline-block;
+  padding: 23.5px 32px;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    #ff3bff 0%,
+    #ecbfbf 38.02%,
+    #5c24ff 75.83%,
+    #d94fd5 100%
+  );
+  border-image-slice: 1;
+  cursor: pointer;
+  margin-right: 21px;
+}
+
+.btn-t {
+  display: inline-block;
+  padding: 23.5px 32px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid #fff;
+}
